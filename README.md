@@ -1,6 +1,10 @@
-Js Hello World Demo
-===================
+JavaScript DOMContentLoaded Demo
+================================
 
-Open `index.html` in your browser.
+`DOMContentLoaded` is only fired once when init html is downloaded and parsed.
 
-You will see "Hello, JS!" on the page.
+```
+open index.html
+```
+
+and open Dev Tools -> Console to see the log.

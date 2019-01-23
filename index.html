@@ -1,8 +1,16 @@
 <html>
 <head>
+    <script>
+      document.addEventListener('DOMContentLoaded', () => {
+        console.log('DOMContentLoaded fired');
+      })
+
+      setTimeout(() => {
+        document.getElementById('main').innerHTML = 'Modified but not fire DOMContentLoaded again';
+      }, 2000)
+    </script>
 </head>
 <body>
-<div id="main"></div>
-<script src="./index.js"></script>
+<div id="main">Hello</div>
 </body>
 </html>
